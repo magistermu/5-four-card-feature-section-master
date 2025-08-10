@@ -51,6 +51,7 @@
     /* space */
     --space-s: 0.5rem;
     --space-xl: 4rem;
+    --space-xxl: 6rem;
     --space-l: 2rem;
     --space-m: 1rem;
 }
@@ -177,7 +178,7 @@ h2 {
 header {
     --flow-space: var(--space-l);
     text-align: center;
-    margin-block-start: calc(var(--space-xl) * 2);
+    margin-block-start: var(--space-xxl);
 }
 
 .features {
