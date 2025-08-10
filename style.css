@@ -43,7 +43,7 @@
     --primary-ocean: hsl(212, 86%, 64%);
 
     --light: hsl(0, 0%, 100%);
-    --light-sub: hsl(0, 0%, 96%);
+    --light-sub: hsl(0, 0%, 98%);
     --mid-sub: hsl(212, 6%, 80%);
     --mid: hsl(212, 6%, 44%);
     --dark: hsl(234, 12%, 34%);
@@ -177,7 +177,7 @@ h2 {
 header {
     --flow-space: var(--space-l);
     text-align: center;
-    margin-block-start: var(--space-xl)
+    margin-block-start: calc(var(--space-xl) * 2);
 }
 
 .features {
@@ -207,7 +207,6 @@ header {
     .features {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(4, auto);
-    margin-block-start: var(--space-l);
 }
 
 .features .border-blood {
