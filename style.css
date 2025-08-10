@@ -177,7 +177,7 @@ h2 {
 
 /* COMPONENTS */
 header {
-    --flow-space: var(--space-l);
+    --flow-space: var(--space-m);
     text-align: center;
     margin-block-start: var(--space-xxl);
 }
